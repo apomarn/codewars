@@ -1,5 +1,5 @@
 /*************************************************
- *                   Level 8 Problem 1
+ *                   Problem 1
  *************************************************/
 
 //Complete the solution so that it reverses all of the words within the string passed in.
@@ -16,7 +16,7 @@ reverseWords('The greatest victory is that which requires no battle')
 // should return "battle no requires which that is victory greatest The"
 
 /*************************************************
- *                   Level 8 Problem 2
+ *                   Problem 2
  *************************************************/
 
 /*Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of completed projects. This function should take two arguments: exam - grade for exam (from 0 to 100); projects - number of completed projects (from 0 and above); This function should return a number (final grade). There are four types of final grades:
@@ -35,3 +35,15 @@ function finalGrade(exam, projects) {
 finalGrade(100, 12) // 100
 finalGrade(99, 0) // 100
 finalGrade(10, 15) // 100
+
+/*************************************************
+ *                   Problem 3
+ *************************************************/
+
+//Given an array of integers, return a new array with each value doubled.
+
+function maps(arr) {
+  return arr.map(x => x * 2)
+}
+
+maps([1, 2, 3]) //[2, 4, 6]
