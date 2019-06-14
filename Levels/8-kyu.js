@@ -63,3 +63,44 @@ function even_or_odd(number) {
 }
 
 even_or_odd(2) // Even
+
+/*************************************************
+ *                   Problem 5
+ *************************************************/
+
+// This kata is about multiplying a given number by eight if it is an even number and by nine otherwise.
+
+function simpleMultiplication(number) {
+  if (number % 2 === 0) {
+    return number * 8
+  } else {
+    return number * 9
+  }
+}
+
+simpleMultiplication(2) // 16
+
+/*************************************************
+ *                   Problem 6
+ *************************************************/
+
+// https://www.codewars.com/kata/cat-years-dog-years/train/javascript
+
+var humanYearsCatYearsDogYears = function(humanYears) {
+  let catYears = 0
+  let dogYears = 0
+
+  if (humanYears === 1) {
+    catYears = humanYears * 15
+    dogYears = humanYears * 15
+  } else if (humanYears === 2) {
+    catYears = 15 + 9
+    dogYears = 15 + 9
+  } else if (humanYears > 2) {
+    catYears = (humanYears - 2) * 4 + 24
+    dogYears = (humanYears - 2) * 5 + 24
+  }
+  return [humanYears, catYears, dogYears]
+}
+
+humanYearsCatYearsDogYears(10) // [10, 56, 64]
