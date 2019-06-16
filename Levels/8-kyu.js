@@ -104,3 +104,50 @@ var humanYearsCatYearsDogYears = function(humanYears) {
 }
 
 humanYearsCatYearsDogYears(10) // [10, 56, 64]
+
+/*************************************************
+ *                   Problem 7
+ *************************************************/
+
+//www.codewars.com/kata/abbreviate-a-two-word-name/train/javascript
+function abbrevName(name) {
+  var mayuscula = name.toUpperCase()
+  var separadoMayuscula = mayuscula.split(' ')
+  return separadoMayuscula[0][0] + '.' + separadoMayuscula[1][0]
+}
+
+var resultado = abbrevName('patrick Feenan')
+console.log(resultado)
+
+/*************************************************
+ *                   Problem 8
+ *************************************************/
+
+//www.codewars.com/kata/sum-of-positive/train/javascript
+
+function positiveSum(arr) {
+  var sumaNumeros = 0
+  for (var i = 0; i < arr.length; i++) {
+    var arrValue = arr[i]
+
+    if (arrValue > 0) {
+      sumaNumeros += arrValue
+    }
+  }
+
+  return sumaNumeros
+}
+
+var resultado1 = positiveSum([1, 2, 3, 4, 5])
+console.log(resultado1)
+/*************************************************
+ *                   Problem 9
+ *************************************************/
+
+/*************************************************
+ *                   Problem 10
+ *************************************************/
+
+/*************************************************
+ *                   Problem 11
+ *************************************************/
