@@ -122,7 +122,6 @@ console.log(resultado)
 /*************************************************
  *                   Problem 8
  *************************************************/
-
 //www.codewars.com/kata/sum-of-positive/train/javascript
 
 function positiveSum(arr) {
@@ -140,6 +139,7 @@ function positiveSum(arr) {
 
 var resultado1 = positiveSum([1, 2, 3, 4, 5])
 console.log(resultado1)
+
 /*************************************************
  *                   Problem 9
  *************************************************/
