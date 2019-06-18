@@ -143,7 +143,19 @@ console.log(resultado1)
 /*************************************************
  *                   Problem 9
  *************************************************/
+//https://www.codewars.com/kata/if-you-cant-sleep-just-count-sheep/train/javascript
 
+function countSheep(num) {
+  var final = ''
+  for (var i = 1; i <= num; i++) {
+    var frase = i + ' sheep...'
+    final += frase
+  }
+  return final
+}
+
+var result1 = countSheep(6)
+console.log(result1)
 /*************************************************
  *                   Problem 10
  *************************************************/
