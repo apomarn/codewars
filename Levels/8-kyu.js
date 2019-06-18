@@ -160,6 +160,14 @@ console.log(result1)
  *                   Problem 10
  *************************************************/
 
+//https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript
+
+function DNAtoRNA(dna) {
+  var separado = dna.split('')
+  var nuevo = dna.replace(/T/g, 'U')
+  return nuevo
+}
+
 /*************************************************
  *                   Problem 11
  *************************************************/
