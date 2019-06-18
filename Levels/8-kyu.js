@@ -207,3 +207,20 @@ function whatday(num) {
 
 var problem1 = whatday(5)
 console.log(problem1)
+
+/*************************************************
+ *                   Problem 12
+ *************************************************/
+
+//https://www.codewars.com/kata/will-there-be-enough-space/train/javascript
+
+function enough(cap, on, wait) {
+  var noEntran
+  var capacidad = cap - on
+  if (capacidad < wait) {
+    noEntran = wait - capacidad
+  } else {
+    noEntran = 0
+  }
+  return noEntran
+}
