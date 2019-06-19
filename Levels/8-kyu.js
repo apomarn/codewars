@@ -171,3 +171,39 @@ function DNAtoRNA(dna) {
 /*************************************************
  *                   Problem 11
  *************************************************/
+
+//https://www.codewars.com/kata/return-the-day/train/javascript
+
+function whatday(num) {
+  var text = ''
+  switch (num) {
+    case 1:
+      text = 'Sunday'
+      break
+    case 2:
+      text = 'Monday'
+      break
+    case 3:
+      text = 'Tuesday'
+      break
+    case 4:
+      text = 'Wednesday'
+      break
+    case 5:
+      text = 'Thursday'
+      break
+    case 6:
+      text = 'Friday'
+      break
+    case 7:
+      text = 'Saturday'
+      break
+    default:
+      text = 'Wrong, please enter a number between 1 and 7'
+  }
+
+  return text
+}
+
+var problem1 = whatday(5)
+console.log(problem1)
