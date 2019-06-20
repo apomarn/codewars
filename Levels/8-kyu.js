@@ -224,3 +224,16 @@ function enough(cap, on, wait) {
   }
   return noEntran
 }
+
+/*************************************************
+ *                   Problem 13
+ *************************************************/
+
+//https://www.codewars.com/kata/remove-first-and-last-character/train/javascript
+
+function removeChar(str) {
+  var string = str.slice(1, str.length)
+  var wordlength = string.length
+  var final = string.slice(0, wordlength - 1)
+  return final
+}
