@@ -232,8 +232,16 @@ function enough(cap, on, wait) {
 //https://www.codewars.com/kata/remove-first-and-last-character/train/javascript
 
 function removeChar(str) {
-  var string = str.slice(1, str.length)
-  var wordlength = string.length
-  var final = string.slice(0, wordlength - 1)
+  var final = str.slice(1, -1)
   return final
+}
+
+/*************************************************
+ *                   Problem 14
+ *************************************************/
+
+//https://www.codewars.com/kata/third-angle-of-a-triangle/train/javascript
+
+function otherAngle(a, b) {
+  return 180 - a - b
 }
