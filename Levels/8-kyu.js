@@ -245,3 +245,13 @@ function removeChar(str) {
 function otherAngle(a, b) {
   return 180 - a - b
 }
+
+/*************************************************
+ *                   Problem 15
+ *************************************************/
+
+//https://www.codewars.com/kata/makeuppercase/train/javascript
+
+function makeUpperCase(str) {
+  return str.toUpperCase()
+}
