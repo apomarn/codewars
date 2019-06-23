@@ -283,3 +283,13 @@ function grow(x) {
   }
   return number
 }
+
+/*************************************************
+ *                   Problem 18
+ *************************************************/
+
+//https://www.codewars.com/kata/keep-hydrated-1/train/javascript
+
+function litres(time) {
+  return Math.floor(Math.floor(time) * 0.5)
+}
