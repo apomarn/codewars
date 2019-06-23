@@ -255,3 +255,17 @@ function otherAngle(a, b) {
 function makeUpperCase(str) {
   return str.toUpperCase()
 }
+
+/*************************************************
+ *                   Problem 16
+ *************************************************/
+
+//https://www.codewars.com/kata/count-the-monkeys/train/javascript
+
+function monkeyCount(n) {
+  var numbers = []
+  for (var i = 1; i <= n; i++) {
+    numbers.push(i)
+  }
+  return numbers
+}
