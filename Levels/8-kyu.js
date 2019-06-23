@@ -269,3 +269,17 @@ function monkeyCount(n) {
   }
   return numbers
 }
+
+/*************************************************
+ *                   Problem 17
+ *************************************************/
+
+//https://www.codewars.com/kata/beginner-reduce-but-grow/train/javascript
+
+function grow(x) {
+  var number = 1
+  for (var i = 0; i < x.length; i++) {
+    number = x[i] * number
+  }
+  return number
+}
