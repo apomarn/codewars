@@ -293,3 +293,13 @@ function grow(x) {
 function litres(time) {
   return Math.floor(Math.floor(time) * 0.5)
 }
+
+/*************************************************
+ *                   Problem 19
+ *************************************************/
+
+//https://www.codewars.com/kata/remove-string-spaces/train/javascript
+
+function noSpace(x) {
+  return x.replace(/\s/g, '')
+}
