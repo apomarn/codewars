@@ -313,3 +313,13 @@ function noSpace(x) {
 function numberToString(num) {
   return num.toString()
 }
+
+/*************************************************
+ *                   Problem 21
+ *************************************************/
+
+//https://www.codewars.com/kata/convert-a-string-to-a-number/train/javascript
+
+var stringToNumber = function(str) {
+  return Number(str)
+}
