@@ -303,3 +303,13 @@ function litres(time) {
 function noSpace(x) {
   return x.replace(/\s/g, '')
 }
+
+/*************************************************
+ *                   Problem 20
+ *************************************************/
+
+//https://www.codewars.com/kata/convert-a-number-to-a-string/train/javascript
+
+function numberToString(num) {
+  return num.toString()
+}
