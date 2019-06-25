@@ -323,3 +323,19 @@ function numberToString(num) {
 var stringToNumber = function(str) {
   return Number(str)
 }
+
+/*************************************************
+ *                   Problem 22
+ *************************************************/
+
+//https://www.codewars.com/kata/find-numbers-which-are-divisible-by-given-number/train/javascript
+
+function divisibleBy(numbers, divisor) {
+  var result = []
+  for (var i = 0; i < numbers.length; i++) {
+    if (numbers[i] % divisor === 0) {
+      result.push(numbers[i])
+    }
+  }
+  return result
+}
