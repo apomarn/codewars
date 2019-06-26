@@ -339,3 +339,15 @@ function divisibleBy(numbers, divisor) {
   }
   return result
 }
+
+/*************************************************
+ *                   Problem 23
+ *************************************************/
+
+//https://www.codewars.com/kata/how-many-lightsabers-do-you-own/train/javascript
+
+function howManyLightsabersDoYouOwn(name) {
+  if (name === 'Zach') {
+    return 18
+  } else return 0
+}
