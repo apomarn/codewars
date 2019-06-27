@@ -351,3 +351,22 @@ function howManyLightsabersDoYouOwn(name) {
     return 18
   } else return 0
 }
+
+/*************************************************
+ *                   Problem 24
+ *************************************************/
+
+//https://www.codewars.com/kata/how-good-are-you-really/train/javascript
+
+function betterThanAverage(classPoints, yourPoints) {
+  var total = 0
+  for (var i = 0; i < classPoints.length; i++) {
+    total += classPoints[i]
+  }
+
+  if (total / classPoints.length < yourPoints) {
+    return true
+  } else {
+    return false
+  }
+}
