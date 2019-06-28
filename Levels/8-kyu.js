@@ -370,3 +370,17 @@ function betterThanAverage(classPoints, yourPoints) {
     return false
   }
 }
+
+/*************************************************
+ *                   Problem 25
+ *************************************************/
+
+//https://www.codewars.com/kata/square-n-sum/train/javascript
+
+function squareSum(numbers) {
+  var total = 0
+  for (var i = 0; i < numbers.length; i++) {
+    total += Math.pow(numbers[i], 2)
+  }
+  return total
+}
