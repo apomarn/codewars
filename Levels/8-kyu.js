@@ -384,3 +384,20 @@ function squareSum(numbers) {
   }
   return total
 }
+
+/*************************************************
+ *                   Problem 26
+ *************************************************/
+
+//https://www.codewars.com/kata/find-out-whether-the-shape-is-a-cube/train/javascript
+
+var cubeChecker = function(volume, side) {
+  if (volume <= 0 || side <= 0) {
+    return false
+  }
+  if (volume / side === side * side) {
+    return true
+  } else {
+    return false
+  }
+}
