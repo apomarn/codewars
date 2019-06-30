@@ -401,3 +401,17 @@ var cubeChecker = function(volume, side) {
     return false
   }
 }
+
+/*************************************************
+ *                   Problem 27
+ *************************************************/
+
+//https://www.codewars.com/kata/sum-mixed-array/train/javascript
+
+function sumMix(x) {
+  var total = 0
+  for (var i = 0; i < x.length; i++) {
+    total += Number(x[i])
+  }
+  return total
+}
