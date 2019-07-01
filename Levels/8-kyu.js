@@ -415,3 +415,23 @@ function sumMix(x) {
   }
   return total
 }
+
+/*************************************************
+ *                   Problem 28
+ *************************************************/
+
+//https://www.codewars.com/kata/how-many-stairs-will-suzuki-climb-in-20-years/train/javascript
+
+function stairsIn20(stairs) {
+  var total = 0
+  var newArr = []
+  for (var i = 0; i < stairs.length; i++) {
+    for (var j = 0; j < stairs[i].length; j++) {
+      newArr.push(stairs[i][j])
+    }
+  }
+  for (var i = 0; i < newArr.length; i++) {
+    total += newArr[i]
+  }
+  return total * 20
+}
