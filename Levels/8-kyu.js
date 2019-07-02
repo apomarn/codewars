@@ -435,3 +435,17 @@ function stairsIn20(stairs) {
   }
   return total * 20
 }
+
+/*************************************************
+ *                   Problem 29
+ *************************************************/
+
+//https://www.codewars.com/kata/is-n-divisible-by-x-and-y/train/javascript
+
+function isDivisible(n, x, y) {
+  if (n % x === 0 && n % y === 0) {
+    return true
+  } else {
+    return false
+  }
+}
