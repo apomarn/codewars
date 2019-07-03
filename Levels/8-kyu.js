@@ -449,3 +449,13 @@ function isDivisible(n, x, y) {
     return false
   }
 }
+
+/*************************************************
+ *                   Problem 30
+ *************************************************/
+
+//https://www.codewars.com/kata/remove-exclamation-marks/train/javascript
+
+function removeExclamationMarks(s) {
+  return s.split('!').join('')
+}
