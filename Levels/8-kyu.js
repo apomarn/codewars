@@ -459,3 +459,19 @@ function isDivisible(n, x, y) {
 function removeExclamationMarks(s) {
   return s.split('!').join('')
 }
+
+/*************************************************
+ *                   Problem 31
+ *************************************************/
+
+//https://www.codewars.com/kata/return-negative/train/javascript
+
+function makeNegative(num) {
+  if (num > 0) {
+    return num * -1
+  } else if (num < 0) {
+    return num
+  } else if (num === 0) {
+    return num
+  }
+}
